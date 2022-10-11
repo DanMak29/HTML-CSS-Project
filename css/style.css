@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.img {
+    size: 50px 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background: rgb(116, 113, 109);
+    background: linear-gradient(90deg, rgba(116, 113, 109, 1) 15%, rgba(186, 179, 170, 1) 29%, rgba(198, 185, 170, 1) 100%);
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.page__name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.head__name {
+    padding-left: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.head__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.head__menu li a {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.head__menu li a:hover {
+    background: #eaa926;
+    color: white;
+    border-radius: 5px;
+}
+
+.plane {
+    width: 1140px;
+}
+
+.middle__block {
+    position: relative;
+}
+
+.mini__window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid orange;
+    background-color: orange;
+    border-radius: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.middle__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.mini__window h3 {
+    text-transform: uppercase;
+}
+
+.middle__line {
+    display: flex;
+    border: 1px solid orange;
+    margin: 10px;
+    background: orange;
+    flex-direction: row;
+}
+
+.middle__line__content {
+    text-align: right;
+}
+
+.middle__line__text {
+    font-size: 20px;
+}
+
+.middle__line__content h3 {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.middle__line i {
+    display: flex;
+    font-size: 70px;
+    align-items: center;
+    margin: 15px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    background: rgb(116, 113, 109);
+    background: linear-gradient(90deg, rgba(116, 113, 109, 1) 15%, rgba(186, 179, 170, 1) 29%, rgba(198, 185, 170, 1) 100%);
+    justify-content: space-between;
+    align-content: end;
+}
+
+.bot_menu {
+    display: flex;
+    list-style: none;
+    align-content: end;
+}
+
+.bot_menu li a {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-transform: uppercase;
+    margin: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.bot_menu li a:hover {
+    background: #eaa926;
+    color: white;
+    border-radius: 60px;
+}
